@@ -1,0 +1,6 @@
+Flask
+requests
+cryptography
+numpy
+scipy
+ecdsa

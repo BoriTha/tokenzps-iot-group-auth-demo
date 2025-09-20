@@ -1,0 +1,33 @@
+{
+  "private_key_pem": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsz3uyG2QqQZF7\nQEMx7tSneqLdYSEOXSvvepgUiVQDab4991eGZ74lFOVsIll+rCV/56ile5cIrtDW\n3NkjRXgLny2T0ZfnK2fj0P9UQvzdJIHcOsnexJ9JnIz+/t7OEc+EuVVSNbJUH+/y\nWLyEuVBIkR/ihEGl5kavuJl6+WP0ik+gU4DuW9RsEjuKRqYx6jNdvZwXgCv1YgsM\nFWewVyOeRpWMOmFxQRpe9AxbxgKsn2K4Wx7Qn79NqODWi1mAujdNoRGRSprxIDC1\nY5OySFF4bixC8UalIlv0lIh5Fpe+K99V75b9l0ujgSsDjDVet5E0hu3XUd4dNfel\n4jbrfna3AgMBAAECggEAMMtxKOxVDx1uf7e4gXvnbdbR7+KCG/Uw97DNCldwcnpE\nLmkNvLTEWuIYmbzlOkBPYls+ImPQVLJP46t+YFg4Okfa7bcrxilab1hPEDLOBX9O\nb6nl4FHyjC15HnNG5DbhOp++OLVSwjA2Z16o9G0C/0qDD0m646Yu5WUhaTjMAXsp\ngs+CjrAip5elu81doVJtlYAjjsmL4tx7hTCkjI+3coQ/waK+KhwrYvtRn2EFZTkV\n86X00/CrWlqjLBENYiWNaHHi4PArt+hrNsy9bYsbk5j5zRytB3dFZglmFZTtzGSZ\nl867+y0VxOrfnmphDJrQbW0zLuSJzN4GRGctS+mruQKBgQDZSQmuYdLvZ+3JAsHR\nXp7eGj/Rt8ynaBCxs8I2hT5nu5BVZOXdvMpm/gboca76C26liFs2M7WS8+jmzG6/\nuGaS0FntnWuR1FZw7+f7ZrsECC47eYw4i9MS0Zp2URQI/leRodFqA9cfsIs3ywPW\n22jclndYTuoWl1MbulyxcyaVfQKBgQDLmdSBE8Rui3MTbXQ9AB2ujMZAsqmzOP5s\nESyHhJl83jhUL99pXem15PL/YfswVIPhKOr4l79r/LOvTEbwz2IMzGswCD+IfulU\npqWwXM878UJJbzQiwE+Qcnhqg9OkE7pEmFkqzgw/Ay3jRCAtnA78OCn/scXwQkDx\nYnYEes5jQwKBgGHy2clhUbwYRomxk3t1QvpuLMy2JSxl7fidRvRa1knetG66QCDX\n5QnOg4CvFqijFKrMMAnb/4MSLrA0AcytLJgMEi3aI86mQJ1CmHms0qs7oNOwtDQd\nW/YExLOHUxfGx+TfZE59ErG3XNq2yrFFURz3Oy90y3OJna5HMVfQx9jlAoGBAICI\n5w1uC062nrmfGgkAr7xohyiFInlQ+94BoZkUb0nTiMAtUN/WOBtrJLVxiADk+jUF\nfgHe2ywzZsS+ZPLWGdJ2oxy5uFJVvLyCUIvcq7/t+akemU1vF0vb2IV2IACvq6Ju\ng6xwVG7bdPbLJX1lzlgQpQMVmh6p1RIO1O7TEMS9AoGAR/j5dr/nM3nn9AIx+NFU\ntPSBicQ8mNIVTii/NaV9xe3zIn1IcgUF0uXCBeMjMjxldXBal95XfhJUMNV8o0yt\n7GDdf1MRoAYtFgOSH3AvMdJdS2yLFtet/7/8/UkZIhsxSi5N8b2iKvzusE12jaYz\nPUvYayTv0QY8MPfNVYchblc=\n-----END PRIVATE KEY-----\n",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArM97shtkKkGRe0BDMe7U\np3qi3WEhDl0r73qYFIlUA2m+PfdXhme+JRTlbCJZfqwlf+eopXuXCK7Q1tzZI0V4\nC58tk9GX5ytn49D/VEL83SSB3DrJ3sSfSZyM/v7ezhHPhLlVUjWyVB/v8li8hLlQ\nSJEf4oRBpeZGr7iZevlj9IpPoFOA7lvUbBI7ikamMeozXb2cF4Ar9WILDBVnsFcj\nnkaVjDphcUEaXvQMW8YCrJ9iuFse0J+/Tajg1otZgLo3TaERkUqa8SAwtWOTskhR\neG4sQvFGpSJb9JSIeRaXvivfVe+W/ZdLo4ErA4w1XreRNIbt11HeHTX3peI26352\ntwIDAQAB\n-----END PUBLIC KEY-----\n",
+  "enrollment_challenge_C": "d6e824a1e9317c8b3f63d58695157149cad495a0a4fa203bf8e20e58565f303b",
+  "enrollment_response_R": "48f206573c3bef1fe1ad77b2e8dea1fedc51c81dd775139b996535ff48b13d4b",
+  "enrollment_nonce_device": "6952b3d4d0e36fc1bc1c749dad4c2ec2",
+  "enrollment_T0_device": 1747523177,
+  "my_coord_for_group_poly_x_str": "179bada53016ef5fb34d19ef7dbe1225313a1f6490427ccb0e0190e7698ce352",
+  "my_coord_for_group_poly_y_str": "827aae24753fa21ae3afd38b73f7d3d7f89d98b13fa2ece91455683807fdd30d",
+  "my_coord_for_group_poly_x_numeric": 396078501,
+  "my_coord_for_group_poly_y_numeric": 2189078052,
+  "phase1_registered_with_fog": true,
+  "my_group_token_share": {
+    "x": 396078501,
+    "y": 361978892929580.8
+  },
+  "last_group_auth_resp_nonce_3bab68d3174e72a2ada8ed095999ec1103dd14d22cd212d0aa0c507279696c7d": {
+    "coordinates_pkg": {
+      "x": 396078501,
+      "y": 2189078052,
+      "deviceID": "device_3",
+      "sessionNonce": "3bab68d3174e72a2ada8ed095999ec1103dd14d22cd212d0aa0c507279696c7d",
+      "timestamp": 1747523197
+    },
+    "signature": "54acc908de23a2916f5439a229283521f82e984b1b5f2d7f43d83f7ccc0b629b2653902324eb78f39aa20ac0acb183c8173ce510490a6385597f3138f2904f484ca76de206292976ce27692c9b6c34765396bfc3dc8d5747215381b3597d35ea929705b3121af545271d9fd34b376c2327a27db7f512b2b88f752c29509284d3202e86318519d125d96f13764f202c4b15c3c7e719144745386c21fd24267e697676e4bd3c17fbba8939a34065d233a31eab106508789a952a028e213f8a805bb49e2ffae548156a97e173e85799977013a68f61b01e51bae9a3fc3272c4f74a471dfd307da958c28b0645ce4557b65972720a4b3fc1d5acfed467c43c3dc3e8"
+  },
+  "phase6_sent": true,
+  "my_session_token_point": {
+    "x": 47463256694188239226017702844388878336,
+    "y": 48059527575984957745046506802030536340819179621392358812442205722757690759115
+  },
+  "current_session_id_for_data_auth": "f7e94483dc6996bd50f0af9077e9e534"
+}

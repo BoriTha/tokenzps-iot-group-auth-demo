@@ -1,0 +1,139 @@
+{
+  "parameters": {
+    "total_devices": 3,
+    "t_phase1": 2,
+    "delegation_t_prime": 2
+  },
+  "config_leader_id": "device_1",
+  "leader_id": "device_1",
+  "leader_public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApLZlhbenR9Q0sn86cfYp\nD8JbB2goFPmyQMzpsHMhPjvl+S0HgkrQkRRpmzYKkyllsLqhiJbj6rB0N1Hjt2gn\nmZV6tdtsyRwINV3wjKXtte2qLx7DuwLgsGmmcHoq5rjFO3bHK2ixpyRvZ92fqOeN\nN8UlM0Y6rS32jlM6mPadr7RRw5PbmOU2OXOpbNrbHhWI1Z3JJNy6lRILunVh/XRh\n5W8FTvjbq77Xpc6LFZ73l5qbdIPllq2B071Nsf+xPvY3v5ORIbrw8s8kUJZk/DiR\nKWXnc6pQO9BJc7136OkH2hCn3kpq+kEbnc5ioyJhvWVnL6ciWunoTZgi6+js8PLK\nwwIDAQAB\n-----END PUBLIC KEY-----\n",
+  "registered_devices_pks": {
+    "device_3": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArM97shtkKkGRe0BDMe7U\np3qi3WEhDl0r73qYFIlUA2m+PfdXhme+JRTlbCJZfqwlf+eopXuXCK7Q1tzZI0V4\nC58tk9GX5ytn49D/VEL83SSB3DrJ3sSfSZyM/v7ezhHPhLlVUjWyVB/v8li8hLlQ\nSJEf4oRBpeZGr7iZevlj9IpPoFOA7lvUbBI7ikamMeozXb2cF4Ar9WILDBVnsFcj\nnkaVjDphcUEaXvQMW8YCrJ9iuFse0J+/Tajg1otZgLo3TaERkUqa8SAwtWOTskhR\neG4sQvFGpSJb9JSIeRaXvivfVe+W/ZdLo4ErA4w1XreRNIbt11HeHTX3peI26352\ntwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "device_1": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApLZlhbenR9Q0sn86cfYp\nD8JbB2goFPmyQMzpsHMhPjvl+S0HgkrQkRRpmzYKkyllsLqhiJbj6rB0N1Hjt2gn\nmZV6tdtsyRwINV3wjKXtte2qLx7DuwLgsGmmcHoq5rjFO3bHK2ixpyRvZ92fqOeN\nN8UlM0Y6rS32jlM6mPadr7RRw5PbmOU2OXOpbNrbHhWI1Z3JJNy6lRILunVh/XRh\n5W8FTvjbq77Xpc6LFZ73l5qbdIPllq2B071Nsf+xPvY3v5ORIbrw8s8kUJZk/DiR\nKWXnc6pQO9BJc7136OkH2hCn3kpq+kEbnc5ioyJhvWVnL6ciWunoTZgi6+js8PLK\nwwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "device_2": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQGPQ6AFVeQLkFTZUfy1\nQMvbqha86Ghnnss3HHpHP1BxycCBE/XXvkzQJPVwajb/4xQT36MGiXz5P4DDsq/V\nF5w6t/w9ETJugDgBm17pTVh9dmYm6RWQvIxUGZXLUmMJgWP5lmB/k4yZA+rjZmVT\nQ75Wye77wTIl1j8aMLAGVczHFdh7lqntmUIOJ9bT2fDey+8z8ra0RuOSUdGuaIJA\ndjq/j9Xr/hkScr6CsqRwSKwFPZH7TLu1FrhQ4ZnP/Yo/gQ8KdLhpkMj5/z7LrtvC\nqKkXsyyluLW+bKOYumxMAXL70xExwnBakQiRIPh0761j+mHQWGIetQfQmWNrlAbq\nJwIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "registered_devices_urls": {
+    "device_3": "http://host.docker.internal:5003",
+    "device_1": "http://host.docker.internal:5001",
+    "device_2": "http://host.docker.internal:5002"
+  },
+  "all_device_enrollment_data": {
+    "device_3": {
+      "C": "d6e824a1e9317c8b3f63d58695157149cad495a0a4fa203bf8e20e58565f303b",
+      "R": "48f206573c3bef1fe1ad77b2e8dea1fedc51c81dd775139b996535ff48b13d4b",
+      "nonce": "6952b3d4d0e36fc1bc1c749dad4c2ec2",
+      "T0_device": 1747523177,
+      "x_val_str": "179bada53016ef5fb34d19ef7dbe1225313a1f6490427ccb0e0190e7698ce352",
+      "y_val_str": "827aae24753fa21ae3afd38b73f7d3d7f89d98b13fa2ece91455683807fdd30d",
+      "x_numeric": 396078501,
+      "y_numeric": 2189078052,
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArM97shtkKkGRe0BDMe7U\np3qi3WEhDl0r73qYFIlUA2m+PfdXhme+JRTlbCJZfqwlf+eopXuXCK7Q1tzZI0V4\nC58tk9GX5ytn49D/VEL83SSB3DrJ3sSfSZyM/v7ezhHPhLlVUjWyVB/v8li8hLlQ\nSJEf4oRBpeZGr7iZevlj9IpPoFOA7lvUbBI7ikamMeozXb2cF4Ar9WILDBVnsFcj\nnkaVjDphcUEaXvQMW8YCrJ9iuFse0J+/Tajg1otZgLo3TaERkUqa8SAwtWOTskhR\neG4sQvFGpSJb9JSIeRaXvivfVe+W/ZdLo4ErA4w1XreRNIbt11HeHTX3peI26352\ntwIDAQAB\n-----END PUBLIC KEY-----\n",
+      "timestamp": 1747523177
+    },
+    "device_1": {
+      "C": "226b3ffad5b8f43bd86e7388276b8b5b0386a8074252f20b709746da2ab6f3f8",
+      "R": "f49274934362562dd143b793b84f19e67a38984706fe0570317907b447f1c84f",
+      "nonce": "36b726bd0f93ea9dcb32df116c1cbcfa",
+      "T0_device": 1747523177,
+      "x_val_str": "f31b28705d942f28bb5db6a7e88e5b693c0c42afb71c56ebd0eb1b83043a9b3b",
+      "y_val_str": "54108a75472f25bfa35089c580cef476eaff4ce51adfbe99aced46d84ef10ed5",
+      "x_numeric": 4078643312,
+      "y_numeric": 1410370165,
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApLZlhbenR9Q0sn86cfYp\nD8JbB2goFPmyQMzpsHMhPjvl+S0HgkrQkRRpmzYKkyllsLqhiJbj6rB0N1Hjt2gn\nmZV6tdtsyRwINV3wjKXtte2qLx7DuwLgsGmmcHoq5rjFO3bHK2ixpyRvZ92fqOeN\nN8UlM0Y6rS32jlM6mPadr7RRw5PbmOU2OXOpbNrbHhWI1Z3JJNy6lRILunVh/XRh\n5W8FTvjbq77Xpc6LFZ73l5qbdIPllq2B071Nsf+xPvY3v5ORIbrw8s8kUJZk/DiR\nKWXnc6pQO9BJc7136OkH2hCn3kpq+kEbnc5ioyJhvWVnL6ciWunoTZgi6+js8PLK\nwwIDAQAB\n-----END PUBLIC KEY-----\n",
+      "timestamp": 1747523177
+    },
+    "device_2": {
+      "C": "1f056946ca812d527fe35cf614639117c338b1bb98caa68a4a964cf2c5863789",
+      "R": "1baa42ad62f2683880d0cd075e5ca93831a5db1e19aa759520c21468c5845a77",
+      "nonce": "76e9b0ea3f5223a773b1fd5c69a6e204",
+      "T0_device": 1747523177,
+      "x_val_str": "e6b0d99fd3c7183825006841d2df033befd7d7e6162b3d3df4bf940514c5e818",
+      "y_val_str": "2bd752c2af3e475f882e50ce5a60610b0391b3e9b03236f1b89651415cc96c6e",
+      "x_numeric": 3870349727,
+      "y_numeric": 735531714,
+      "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQGPQ6AFVeQLkFTZUfy1\nQMvbqha86Ghnnss3HHpHP1BxycCBE/XXvkzQJPVwajb/4xQT36MGiXz5P4DDsq/V\nF5w6t/w9ETJugDgBm17pTVh9dmYm6RWQvIxUGZXLUmMJgWP5lmB/k4yZA+rjZmVT\nQ75Wye77wTIl1j8aMLAGVczHFdh7lqntmUIOJ9bT2fDey+8z8ra0RuOSUdGuaIJA\ndjq/j9Xr/hkScr6CsqRwSKwFPZH7TLu1FrhQ4ZnP/Yo/gQ8KdLhpkMj5/z7LrtvC\nqKkXsyyluLW+bKOYumxMAXL70xExwnBakQiRIPh0761j+mHQWGIetQfQmWNrlAbq\nJwIDAQAB\n-----END PUBLIC KEY-----\n",
+      "timestamp": 1747523177
+    }
+  },
+  "leader_public_key_ec": "03fd77ff149be77043068f9e2a238670b35cc05a0b359bd30b21b79c06b11bade0",
+  "group_poly_P_defining_points": [
+    [
+      3870349727,
+      735531714
+    ],
+    [
+      396078501,
+      2189078052
+    ]
+  ],
+  "group_poly_P_coeffs": [
+    -0.4183744571011797,
+    2354787179.8253236
+  ],
+  "group_secret_S": 2354787179.8253236,
+  "group_poly_P_degree": 1,
+  "group_poly_P_device_offsets": {
+    "device_3": -4.76837158203125e-07,
+    "device_1": -761983166.5420339,
+    "device_2": -4.76837158203125e-07
+  },
+  "session_key_for_leader_device_1": "487a2d68305671793935727676342d78427831697430645f30486452715947716e3534594c4343734838513d",
+  "group_delegation_poly_coeffs": [
+    913901.0,
+    2354787179.8253236
+  ],
+  "group_delegation_poly_secret_used": 2354787179.8253236,
+  "member_shares_of_groupToken_pending_dist": {
+    "device_1": {
+      "x": 4078643312,
+      "y": 3727478556267292.0
+    },
+    "device_2": {
+      "x": 3870349727,
+      "y": 3537118840642207.0
+    },
+    "device_3": {
+      "x": 396078501,
+      "y": 361978892929580.8
+    }
+  },
+  "group_delegation_timestamp": 1747523192,
+  "last_group_auth_suspicious_devices": [],
+  "active_session_info": {
+    "sessionID": "f7e94483dc6996bd50f0af9077e9e534",
+    "authenticated_devices_for_S": [
+      "device_1",
+      "device_2",
+      "device_3"
+    ],
+    "timestamp": 1747523197,
+    "session_token_nonce2": "be24f1013c0a9c70657d99acab099f6f45f5b0d360b50cb15e2f892083d6aa8f",
+    "session_token_timestamp_T1": 1747523197,
+    "session_token_tSecret_numeric": 136238129147627019819224704371769995802,
+    "token_polynomial_coeffs": [
+      1.659500571043084e-37,
+      -62.08599214476206,
+      3.5855203985523744e+39,
+      1.3623812914762702e+38
+    ],
+    "device_token_points": {
+      "device_1": {
+        "x": 310912771554954224905362749211418891245,
+        "y": 100749865938084770873300926181101017382994473400438962292886179701966178034264
+      },
+      "device_2": {
+        "x": 31513546294669958446600492351948755413,
+        "y": 56528249635778508749875193995695878027395507218162229751295807464322843389797
+      },
+      "device_3": {
+        "x": 47463256694188239226017702844388878336,
+        "y": 48059527575984957745046506802030536340819179621392358812442205722757690759115
+      }
+    },
+    "legitimate_devices_for_this_token": [
+      "device_1",
+      "device_2",
+      "device_3"
+    ]
+  }
+}

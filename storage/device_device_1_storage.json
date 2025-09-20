@@ -1,0 +1,41 @@
+{
+  "private_key_pem": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCktmWFt6dH1DSy\nfzpx9ikPwlsHaCgU+bJAzOmwcyE+O+X5LQeCStCRFGmbNgqTKWWwuqGIluPqsHQ3\nUeO3aCeZlXq122zJHAg1XfCMpe217aovHsO7AuCwaaZweirmuMU7dscraLGnJG9n\n3Z+o5403xSUzRjqtLfaOUzqY9p2vtFHDk9uY5TY5c6ls2tseFYjVnckk3LqVEgu6\ndWH9dGHlbwVO+NurvtelzosVnveXmpt0g+WWrYHTvU2x/7E+9je/k5EhuvDyzyRQ\nlmT8OJEpZedzqlA70ElzvXfo6QfaEKfeSmr6QRudzmKjImG9ZWcvpyJa6ehNmCLr\n6Ozw8srDAgMBAAECggEADoFfnHCJg0pdX7DTqVCX2iLwGE1kZkB9IbbKB7eD4HKu\n9IwyIpfLGVO2XyxZrw8QvQkai6haJwNmIK8OAktiXWSsG1LZGDbnRCfjNMeyEPj+\nqUqoyxHcTrznIvWnTI1OFUgHDzwXlRQg2YFLe7j0l0o91e+j4DdxhKQwv2LMjToM\nHZewJ82sdLmzrhjI/OLFw/R6U18+UxYvRk0KpcQmWbAjRSQP1BxFB8lwuChVYlYf\nsT3INc/0FC1H3xWZ2YHTbayhyryiYksXvGddwILqiq0Z4j9DkZemCqejy6tAmspc\nDNTpnYUxJngtV7xDd8ZUk6D/tWfyQquR3DrJ/phHrQKBgQDoWdIscZvzok74AjIb\nrgGk77lKhXoJZxokMCWJRKy6FrTuVQ2vLtFJdS3d/VVeU9+eHUlhJpAA/R82hrQS\nBVGf2Ns4cW7v96n7KsBwh7rO+fwN83cNAzumb4LhBP8nuvPrrBEp7MJzC/3faS1Z\n+5nfR/gjoKXdg9uTwKD1x3ttbQKBgQC1ei1NgR1Ku/OjveUAY7Db52PORS9MDkDl\n8bECqzdLSdClhhGLALR2kWQsqHbF97+Z8fcZOb/2J2VVwuIDdvUJHqDF1QberMqh\nCrrTCc7RClNbx99wKO9+bn9di+558iMQG+oPHGgpl/zVHHpa5oIsPtE+txZkfh4H\nq7T7eDrq7wKBgEBmrQeekcBMy6CYUzUy3MfPnkcWigXTKv6+zZinjUyjAJFSx9E3\no9C9hvIRxri3fLLBoVYpLx7nCeC+I2kfSkmI/PI/FqWyus2gQuit5kx6I6/mPKhB\nriXqoJcoIGTtv7Ah6Dv7oMXsm/hxmZ1oTHUD6LZPT8n/QzxH1xVorkBdAoGAc6JR\nAYSWxIr0WM5j/5aGF+jdqI5e78hZQ+t4DapJRljXcND3lqmxU6eau/XwEH6ngJE0\nEMfCcDd0E2xlFS4UPmZcrRHrGbHiPzEWD+i89mfs65t03QPIbrg7wcCrCNrnypju\n0Agauv4UZTqLICampUi1jY+d3hSaT+ryHBXk/NMCgYEAhI4YcC7vDwXeE4aZgzT5\nlhvGel068x5YYO+NjvuHV1p0nAL8ylCovNP9cqY0V/HkWbgB6wUV3drwRJjRzy0v\n9jSp8ivCuxwt1P8MGDA3iB1U1K1JQCwVveG0g2tg9QaqwrjmFwsM8z4UOwEyv8C7\n3s6UzqntfC1Y7aC2ojJNgXA=\n-----END PRIVATE KEY-----\n",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApLZlhbenR9Q0sn86cfYp\nD8JbB2goFPmyQMzpsHMhPjvl+S0HgkrQkRRpmzYKkyllsLqhiJbj6rB0N1Hjt2gn\nmZV6tdtsyRwINV3wjKXtte2qLx7DuwLgsGmmcHoq5rjFO3bHK2ixpyRvZ92fqOeN\nN8UlM0Y6rS32jlM6mPadr7RRw5PbmOU2OXOpbNrbHhWI1Z3JJNy6lRILunVh/XRh\n5W8FTvjbq77Xpc6LFZ73l5qbdIPllq2B071Nsf+xPvY3v5ORIbrw8s8kUJZk/DiR\nKWXnc6pQO9BJc7136OkH2hCn3kpq+kEbnc5ioyJhvWVnL6ciWunoTZgi6+js8PLK\nwwIDAQAB\n-----END PUBLIC KEY-----\n",
+  "leader_public_key_ec": "03fd77ff149be77043068f9e2a238670b35cc05a0b359bd30b21b79c06b11bade0",
+  "enrollment_challenge_C": "226b3ffad5b8f43bd86e7388276b8b5b0386a8074252f20b709746da2ab6f3f8",
+  "enrollment_response_R": "f49274934362562dd143b793b84f19e67a38984706fe0570317907b447f1c84f",
+  "enrollment_nonce_device": "36b726bd0f93ea9dcb32df116c1cbcfa",
+  "enrollment_T0_device": 1747523177,
+  "my_coord_for_group_poly_x_str": "f31b28705d942f28bb5db6a7e88e5b693c0c42afb71c56ebd0eb1b83043a9b3b",
+  "my_coord_for_group_poly_y_str": "54108a75472f25bfa35089c580cef476eaff4ce51adfbe99aced46d84ef10ed5",
+  "my_coord_for_group_poly_x_numeric": 4078643312,
+  "my_coord_for_group_poly_y_numeric": 1410370165,
+  "phase1_registered_with_fog": true,
+  "phase1_fog_poly_setup_triggered": true,
+  "session_key_with_fog_hex": "487a2d68305671793935727676342d78427831697430645f30486452715947716e3534594c4343734838513d",
+  "all_device_urls_known_to_leader": {
+    "device_1": "http://host.docker.internal:5001",
+    "device_2": "http://host.docker.internal:5002",
+    "device_3": "http://host.docker.internal:5003"
+  },
+  "my_group_token_share": {
+    "x": 4078643312,
+    "y": 3727478556267292.0
+  },
+  "last_group_auth_resp_nonce_3bab68d3174e72a2ada8ed095999ec1103dd14d22cd212d0aa0c507279696c7d": {
+    "coordinates_pkg": {
+      "x": 4078643312,
+      "y": 1410370165,
+      "deviceID": "device_1",
+      "sessionNonce": "3bab68d3174e72a2ada8ed095999ec1103dd14d22cd212d0aa0c507279696c7d",
+      "timestamp": 1747523197
+    },
+    "signature": "91d9e86488d4c854d85176322d690a22c8fba56d40b5ee3a5e6fc2d851592168c45aaa27de9146fb716f78ef20790219dd8dfebb9bc1dd115112745edcc5225ce23997c05a0e7182726dcf198db87e3ce5f5ab9829487e076b5a0cb4c14aba7041721db33a6987712d37208bd713818d7fbccbbe26cee2a91df3ac17377c8b015a42d3862e9e157297e743eddaea14dc2c5ace714056c63ce47dc1133233c62922cfb4212bc54eb1c8ac14d6e1fe02909a65cca0331512ca5346f6bab1ee4d5e668899bcc4bb1ee1911666d301562e228f693d7959997510d0e0cec9a240eec67f27d5b064da1d06a4d41d779efcce1b799f4a16d6eeadd49f4659d4dffb1140"
+  },
+  "phase6_sent": true,
+  "my_session_token_point": {
+    "x": 310912771554954224905362749211418891245,
+    "y": 100749865938084770873300926181101017382994473400438962292886179701966178034264
+  },
+  "current_session_id_for_data_auth": "f7e94483dc6996bd50f0af9077e9e534"
+}

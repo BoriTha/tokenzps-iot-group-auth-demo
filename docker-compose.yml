@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+
+  fog_service:
+    build: ./fog_service
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./storage:/app/storage
+    environment:
+      - NUM_DEVICES=3
+      - THRESHOLD_T=2
+      - WIPE_STORAGE_ON_START=true
+      - DELEGATION_THRESHOLD_T_PRIME=2
+      - LEADER_DEVICE_ID=device_1
+    networks:
+      - iot_net
+
+  device_1:
+    build: ./device_service
+    depends_on:
+      - fog_service
+    volumes:
+      - ./storage:/app/storage
+    environment:
+      - DEVICE_ID=device_1
+      - DEVICE_ROLE=leader
+      - WIPE_DEVICE_STORAGE_ON_START=true
+      - FOG_NODE_URL=http://host.docker.internal:5000
+      - DEVICE_FLASK_PORT=5001
+      - DEVICE_URL_OVERRIDE=http://host.docker.internal:5001
+    ports:
+      - "5001:5001"
+    networks:
+      - iot_net
+
+  device_2:
+    build: ./device_service
+    depends_on:
+      - fog_service
+    volumes:
+      - ./storage:/app/storage
+    environment:
+      - DEVICE_ID=device_2
+      - DEVICE_ROLE=base
+      - WIPE_DEVICE_STORAGE_ON_START=true
+      - FOG_NODE_URL=http://host.docker.internal:5000
+      - DEVICE_FLASK_PORT=5001
+      - DEVICE_URL_OVERRIDE=http://host.docker.internal:5002
+    ports:
+      - "5002:5001"
+    networks:
+      - iot_net
+
+  device_3:
+    build: ./device_service
+    depends_on:
+      - fog_service
+    volumes:
+      - ./storage:/app/storage
+    environment:
+      - DEVICE_ID=device_3
+      - DEVICE_ROLE=base
+      - WIPE_DEVICE_STORAGE_ON_START=true
+      - FOG_NODE_URL=http://host.docker.internal:5000
+      - DEVICE_FLASK_PORT=5001
+      - DEVICE_URL_OVERRIDE=http://host.docker.internal:5003
+    ports:
+      - "5003:5001"
+    networks:
+      - iot_net
+
+networks:
+  iot_net:
+    driver: bridge

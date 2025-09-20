@@ -1,0 +1,33 @@
+{
+  "private_key_pem": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdAY9DoAVV5AuQ\nVNlR/LVAy9uqFrzoaGeeyzccekc/UHHJwIET9de+TNAk9XBqNv/jFBPfowaJfPk/\ngMOyr9UXnDq3/D0RMm6AOAGbXulNWH12ZibpFZC8jFQZlctSYwmBY/mWYH+TjJkD\n6uNmZVNDvlbJ7vvBMiXWPxowsAZVzMcV2HuWqe2ZQg4n1tPZ8N7L7zPytrRG45JR\n0a5ogkB2Or+P1ev+GRJyvoKypHBIrAU9kftMu7UWuFDhmc/9ij+BDwp0uGmQyPn/\nPsuu28KoqRezLKW4tb5so5i6bEwBcvvTETHCcFqRCJEg+HTvrWP6YdBYYh61B9CZ\nY2uUBuonAgMBAAECggEATNhhEvPE+MOLh2KIFXFPE35Trt2/Ky9CnD2RZU5SBeKt\nNtaSNr9Kj5lP/O7mTQ5LUwzWJ0zHG87/vX2cCx61eP9d3ARIrVyWKgp/etjK7rDj\ng2o/HDESbL5wQS+IWvQfSGWy2M+1UXXsxLaYA1uPk+Ya224taWNOkpzDCFZ3W1GB\nVPu6SKeg3j3RjUru+rvXvgiS7FREPowl453ZwXxTytofJXEG6Yq376cxCEbLfnTP\nMXVRp3QnoecVXmaHyg0M5Un0AuANs80pKTFAueM/EZH5y9qzWCkyO58hhrv86iPp\nsMRwvqLZV49mhx+ldW5iJO87A0SWnCO1qOX4x6610QKBgQDIq3nOl0Qtk3XQRZTq\n9T26553BidFO8hZ4zcT6DOtEngssAfQj8v4HseH21WBv13jfOxHk06AwZFCBBih4\n9Kqpjs6v7iUcKZFWh97VnvbbK0XheI5+pYejFfZEreQ2ZppkGgd6YlHQt/nj59Vh\n7FzExbx/qUOgLEX5dSxnTDxQ8QKBgQDITAagzLw7LWG2zEERz2l+EbwsEA0LYTlt\n4ENlEZHwBvyVEfHiU/dmPmFjJVrMDKdbgwBEuW1gwiNflfIYO24HlXt8YM0agpCn\nbxpysObGsI6OqbVOxOYfrHYJCpWI+Ne9dIVM/0Yo8LX52xWfLFqlNGtXmXtmsYFW\nEbTDPyXslwKBgQCwInMD9poNNwWODcUshp3sVCiQHBvwI2W+Gz7uDDDlRaOguQZG\nF58JugUQ1zGSeZrKtdp685YDY8mVtoYHxRmXQpYArhM8qO+89/2Lm8Apl836ngrU\n9w4bA8fpeIh7h4u0mXQ+49XUUeexN2iATysOPFG77CJDkRjKYSLceHnowQKBgGqo\n6YKpY7cTlIw2OpRUYfXLVewU5A1iSaW0Hc9tSsyJu+lZ8/e1BPKCV3PniXFNb7Vw\nji0KnS9AUnvtKk0zIIWTWX3DQpVSX9t5c5kNkObPUCqyPqVifrTxLq3j3/tfn+r4\naJ+29FKK1CzoOJxZjy+YOW0dgzQNZDVEGoE6WGSjAoGAfvpIkKSTbgEejMCKqDcM\n6VujRqp3kMv1hs7jfktuW9D4Af6OMr1G/fZs9MFGi3NmdpJkZi5phrtRYGIfoH8t\nmECBlAbp91pQMB7NbU6utC/d0xSmre6AjlFiJvhMHEVpISSLquOGHx4vQ9SR3c0s\ndbdK1XoEHJlHi0DdM4yGrXA=\n-----END PRIVATE KEY-----\n",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnQGPQ6AFVeQLkFTZUfy1\nQMvbqha86Ghnnss3HHpHP1BxycCBE/XXvkzQJPVwajb/4xQT36MGiXz5P4DDsq/V\nF5w6t/w9ETJugDgBm17pTVh9dmYm6RWQvIxUGZXLUmMJgWP5lmB/k4yZA+rjZmVT\nQ75Wye77wTIl1j8aMLAGVczHFdh7lqntmUIOJ9bT2fDey+8z8ra0RuOSUdGuaIJA\ndjq/j9Xr/hkScr6CsqRwSKwFPZH7TLu1FrhQ4ZnP/Yo/gQ8KdLhpkMj5/z7LrtvC\nqKkXsyyluLW+bKOYumxMAXL70xExwnBakQiRIPh0761j+mHQWGIetQfQmWNrlAbq\nJwIDAQAB\n-----END PUBLIC KEY-----\n",
+  "enrollment_challenge_C": "1f056946ca812d527fe35cf614639117c338b1bb98caa68a4a964cf2c5863789",
+  "enrollment_response_R": "1baa42ad62f2683880d0cd075e5ca93831a5db1e19aa759520c21468c5845a77",
+  "enrollment_nonce_device": "76e9b0ea3f5223a773b1fd5c69a6e204",
+  "enrollment_T0_device": 1747523177,
+  "my_coord_for_group_poly_x_str": "e6b0d99fd3c7183825006841d2df033befd7d7e6162b3d3df4bf940514c5e818",
+  "my_coord_for_group_poly_y_str": "2bd752c2af3e475f882e50ce5a60610b0391b3e9b03236f1b89651415cc96c6e",
+  "my_coord_for_group_poly_x_numeric": 3870349727,
+  "my_coord_for_group_poly_y_numeric": 735531714,
+  "phase1_registered_with_fog": true,
+  "my_group_token_share": {
+    "x": 3870349727,
+    "y": 3537118840642207.0
+  },
+  "last_group_auth_resp_nonce_3bab68d3174e72a2ada8ed095999ec1103dd14d22cd212d0aa0c507279696c7d": {
+    "coordinates_pkg": {
+      "x": 3870349727,
+      "y": 735531714,
+      "deviceID": "device_2",
+      "sessionNonce": "3bab68d3174e72a2ada8ed095999ec1103dd14d22cd212d0aa0c507279696c7d",
+      "timestamp": 1747523197
+    },
+    "signature": "36bbc42086d5e9e2fa80bab6303ae5227879cae6d439d907afad29cb865f4d338c26b26ec727c29c8fd8dc8c2eec0e95fdb4d9baa0de36866ddddd596572368a0ac9e6e9f4a753f50ad8e6b62f9591047b34dc811c3f2b7e0238e9c1adfeb9809ee32081a8b4135ec347c51cd7f74858103a731de9f4150550c2960ee2ae6962cf375df1809f530faeb3744a139e78846b9e3debf74f76172edd9a919d31ed0be40e80480fd4b9f1812382c7d9e54401ed99cda448607c04fd17cdbfb8eede800bb8f82c0344fcd5542c6ddda6df85384e9233e0072d230becfa692f63b3eca0d256fa7ba7f997e1059ff7cf444b7313c6ef4d5d1561befb3b55be0b9957c610"
+  },
+  "phase6_sent": true,
+  "my_session_token_point": {
+    "x": 31513546294669958446600492351948755413,
+    "y": 56528249635778508749875193995695878027395507218162229751295807464322843389797
+  },
+  "current_session_id_for_data_auth": "f7e94483dc6996bd50f0af9077e9e534"
+}
