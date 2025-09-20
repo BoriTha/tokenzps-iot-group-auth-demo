@@ -54,7 +54,7 @@ graph TD
 
 - Interactive Admin CLI: A powerful, command-driven tool to manage the simulation, inspect state, and trigger protocol flows.
 
-The Security Protocol Flow
+## The Security Protocol Flow
 
 
 The core of this project is the multi-phase security protocol designed to establish trust and enable secure communication.
