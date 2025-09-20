@@ -1,11 +1,12 @@
-Secure IoT Group Authentication in a Fog Computing Environment
+## Secure IoT Group Authentication in a Fog Computing Environment
 
 This project simulates a secure fog computing environment for Internet of Things (IoT) devices. It demonstrates a multi-phase cryptographic protocol for device registration, leader-based group authentication, and secure data transmission. The entire system is containerized using Docker and Docker Compose and includes an interactive admin shell for managing the simulation.
 
-System Architecture
+##  System Architecture
 
 The simulation consists of three main components that interact within a Docker network. A central Fog Node acts as a trusted authority, managing device identity and orchestrating the security protocol. One IoT device is designated as the leader to coordinate authentication flows, while others act as base members. An administrative CLI provides a control plane to manage the entire simulation.
 
+```mermaid
 graph TD
     subgraph "Your Local Machine"
         User(fa:fa-user You) -- Interacts with --> Admin[Admin Shell]
@@ -27,10 +28,11 @@ graph TD
     D2 <-->|Phases 1, 6| Fog
     DN <-->|Phases 1, 6| Fog
 
-    D1 -- Coordinates Auth (Phases 3, 5) --> D2
-    D1 -- Coordinates Auth (Phases 3, 5) --> DN
+    D1 -- "Coordinates Auth (Phases 3, 5)" --> D2
+    D1 -- "Coordinates Auth (Phases 3, 5)" --> DN
+```
 
-Features
+## Features
 
 - Containerized Services: The entire environment is defined in docker-compose.yml for easy, one-command deployment.
 
@@ -105,7 +107,7 @@ The core of this project is the multi-phase security protocol designed to establ
 
     Getting Started
 
-Prerequisites
+## Prerequisites
 
 - Docker
 
@@ -113,7 +115,7 @@ Prerequisites
 
 - Python 3.8+ (for running the admin shell)
 
-Installation & Launch
+## Installation & Launch
 
 1. Clone the repository:
     git clone https://github.com/your-username/your-repo-name.git
@@ -124,7 +126,7 @@ Installation & Launch
 
 This command builds the Docker images for the fog and device services and starts them in detached mode. The initial orchestration flow (Phases 1-6) will run automatically.
 
-Usage
+## Usage
 
 Once the services are running, manage and interact with the simulation using the Admin Shell.
 
@@ -151,7 +153,7 @@ You will be greeted with the fog-admin> prompt. Type help for a full list of com
 
 - exit or quit: Exit the admin shell.
 
-Configuration
+## Configuration
 
 You can customize the initial state of the simulation by modifying the environment variables within the docker-compose.yml file.
 
@@ -169,8 +171,9 @@ You can customize the initial state of the simulation by modifying the environme
 
 	- WIPE_DEVICE_STORAGE_ON_START: Set to true to clear the device's local state on startup.
 
-Project Structure
+## Project Structure
 
+```text
 .
 ├── admin_shell.py            # The interactive admin CLI tool
 ├── common_utils.py           # Shared cryptographic functions and helpers
@@ -185,7 +188,8 @@ Project Structure
 │   ├── requirements.txt
 │   └── unencrypted_recorder.py # Helper for logging data for audit
 └── README.md                 # This file
+```
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
